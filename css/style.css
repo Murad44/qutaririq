@@ -1,0 +1,87 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+#blog .blog-left-item .blog-img .tete {
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  overflow: hidden;
+}
+
+#blog .blog-left-item .blog-img .tete li {
+  background: #f9ca24;
+}
+
+#blog .blog-left-item .blog-img .tete li a {
+  color: #fff;
+  padding: 5px 10px;
+  display: block;
+  text-decoration: none;
+}
+
+#blog .blog-left-item .blog-left-text li {
+  padding: 10px 15px;
+}
+
+#blog .blog-left-item .blog-left-text li::after {
+  content: \26AC;
+  margin-left: 10px;
+}
+
+#blog .blog-left-item .blog-left-text li:first-child {
+  padding-left: 0;
+}
+
+#blog .blog-left-item .blog-left-text p {
+  font-weight: 300;
+}
+
+#blog .sear .iskat {
+  margin-bottom: 30px;
+}
+
+#blog .sear .iskat form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#blog .sear .iskat form input .form-control {
+  height: 40px;
+  font-size: 14px;
+  color: var(--grey-color, #5E6D77);
+  font-style: italic;
+  border-radius: 3px 0 0 3px;
+  border: 1px solid #D7DCE3;
+}
+
+#blog .sear .iskat form button {
+  height: 40px;
+  background: var(--link-color, #5191FA);
+  border-radius: 0 3px 3px 0;
+  border: none;
+  width: 40px;
+  text-align: center;
+}
+
+#blog .sear .seredina .soz {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+#blog .sear .seredina .soz h4 {
+  font-size: 16px;
+  color: var(--main-color, #1A2B48);
+  font-weight: 500;
+  background-color: #fff;
+  position: relative;
+  display: inline-block;
+  z-index: 9;
+  padding-right: 25px;
+  margin: 0;
+}
+/*# sourceMappingURL=style.css.map */

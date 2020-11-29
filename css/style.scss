@@ -1,0 +1,86 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#blog{
+    .blog-left-item{
+        .blog-img{
+            .tete{
+                position: absolute;
+                top: 30px;
+                left: 30px;
+                overflow: hidden;
+                li{
+                    background: #f9ca24;
+                    a{
+                        color: #fff;
+                        padding: 5px 10px;
+                        display: block;
+                        text-decoration: none;
+                    }
+                }
+            }
+        }
+        .blog-left-text{
+            li{
+                &::after{
+                    content:\26AC ;
+                    margin-left: 10px;
+                }
+                &:first-child{
+                    padding-left: 0;   
+                }
+                padding: 10px 15px;
+            }
+            p{
+                font-weight: 300;
+            }
+        }
+    }
+    .sear{
+      .iskat{
+          margin-bottom: 30px;
+          form{
+              display: flex;
+              input{
+                .form-control{
+                    height: 40px;
+                    font-size: 14px;
+                    color: var(--grey-color, #5E6D77);
+                    font-style: italic;
+                    border-radius: 3px 0 0 3px;
+                    border: 1px solid #D7DCE3;
+                }
+              }
+              button{
+                height: 40px;
+                background: var(--link-color, #5191FA);
+                border-radius: 0 3px 3px 0;
+                border: none;
+                width: 40px;
+                text-align: center;
+                
+              }
+          }
+      }
+      .seredina{
+        .soz{
+            position: relative;
+            margin-bottom: 20px;
+            h4{
+                font-size: 16px;
+                color: var(--main-color, #1A2B48);
+                font-weight: 500;
+                background-color: #fff;
+                position: relative;
+                display: inline-block;
+                z-index: 9;
+                padding-right: 25px;
+                margin: 0;
+            }
+        }    
+      }
+    } 
+}
