@@ -5,6 +5,40 @@
           box-sizing: border-box;
 }
 
+#blog .blog-left-item .blog-img {
+  overflow: hidden;
+  position: relative;
+}
+
+#blog .blog-left-item .blog-img .slider {
+  position: relative;
+  width: 100%;
+  border: 1px solid green;
+  margin: 10px auto;
+}
+
+#blog .blog-left-item .blog-img .slider img {
+  width: 100%;
+  height: 550px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+#blog .blog-left-item .blog-img .slider .next, #blog .blog-left-item .blog-img .slider .prev {
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+#blog .blog-left-item .blog-img .slider .next {
+  right: 20px;
+}
+
+#blog .blog-left-item .blog-img .slider .prev {
+  left: 20px;
+}
+
 #blog .blog-left-item .blog-img .tete {
   position: absolute;
   top: 30px;
@@ -38,6 +72,10 @@
 
 #blog .blog-left-item .blog-left-text p {
   font-weight: 300;
+}
+
+#blog .sear {
+  padding-left: 40px;
 }
 
 #blog .sear .iskat {
@@ -83,5 +121,69 @@
   z-index: 9;
   padding-right: 25px;
   margin: 0;
+}
+
+#blog .sear .seredina .soz hr {
+  content: '';
+  height: 1px;
+  background: #D7DCE3;
+  display: block;
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  margin-top: -3px;
+}
+
+#blog .sear .tekst-s-kar p {
+  font-size: 14px;
+  color: var(--grey-color, #5E6D77);
+  margin-bottom: 0px;
+}
+
+#blog .sear .tekst-s-kar p img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+#blog .sear .posl-chast .posl-soz {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+#blog .sear .posl-chast .posl-soz h4 {
+  font-size: 16px;
+  color: var(--main-color, #1A2B48);
+  font-weight: 500;
+  background-color: #fff;
+  position: relative;
+  display: inline-block;
+  z-index: 9;
+  padding-right: 25px;
+  margin: 0;
+}
+
+#blog .sear .posl-chast .posl-soz hr {
+  content: '';
+  height: 1px;
+  background: #D7DCE3;
+  display: block;
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  margin-top: -3px;
+}
+
+#blog .sear .posl-chast .kubik a {
+  font-size: 11px !important;
+  color: var(--main-color, #1A2B48) !important;
+  font-weight: 500;
+  background: #F7F6F6 !important;
+  border-radius: 3px;
+  padding: 9px 20px;
+  display: inline-block;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  text-transform: uppercase;
 }
 /*# sourceMappingURL=style.css.map */
